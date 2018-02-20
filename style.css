@@ -13,7 +13,8 @@ nav {
 
 #about-me-jumbotron {
   min-height: 600px;
-  background-image: url("images/aboutme-bg.jpeg");
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/aboutme-bg.jpeg");
   background-size: cover;
   color: white;
   /** background-color: #222E5B !important; **/
@@ -99,7 +100,7 @@ nav {
   min-height: 600px;
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5), 0 4px 20px 0 rgba(0,0,0,0.50);
   background-color: #262f34 !important;
-  /* background-image: url("images/contact-bg.jpeg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/contact-bg.jpeg");
   background-size: cover;
   color: tomato;
   border-radius: 0px !important;
